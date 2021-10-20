@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppS3KSanchez.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Beige" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="Black" FontSize="18"/>
+        </Frame>
+
+        <Entry x:Name="txtUsuario" Placeholder="Ingrese su usuario"/>
+        <Entry x:Name="txtClave" Placeholder="Ingrese la clave" IsPassword="True"/>
+
+        <Button x:Name="btnAbrir" Text="Abrir ventana dos" Clicked="btnAbrir_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>

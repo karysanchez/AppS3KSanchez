@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppS3KSanchez.viewDos">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Ventana dos!"/>
+
+            <Label x:Name="lblUsuario"/>
+            <Label x:Name="lblClave"/>
+
+            <Entry x:Name="txtUsuario" IsReadOnly="True"/>
+            <Entry x:Name="txtClave" IsReadOnly="True"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
