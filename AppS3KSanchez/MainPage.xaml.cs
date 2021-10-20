@@ -24,7 +24,8 @@ namespace AppS3KSanchez
                 string usuario = txtUsuario.Text;
                 string clave = txtClave.Text;
 
-                //Permite abrir la ventana (viewDos)
+
+                //Permite abrir la ventana  (viewDos) 
                 await Navigation.PushAsync(new viewDos(usuario, clave));
             }
             catch (Exception ex)
